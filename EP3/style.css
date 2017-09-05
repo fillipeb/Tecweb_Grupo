@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Exercício_1*/
+
+.container1 p{
+	width: 300px;
+	font-family: Verdana;
+	text-align: center;
+	border: solid 1px black ;
+	margin: 0 auto 0;
+	font-size:12px;
+	line-height:2;
+	color:red;
+}
+
+
+/*Exercício_2*/
+
+.titulo{
+	text-align: center;
+	border-bottom: solid 1px rgb(74, 126, 187);
+	margin: 0;
+	padding: 0; 
+	font-family: Arial;
+}
+
+.container2{
+	width: 500px;
+	border: solid 1px black ;
+	margin: 0 auto 0;
+	padding: 10px;
+	font-size: 12px;
+	line-height: 2;
+	font-family: Arial;
+}
+
+.identacao30{
+	text-indent: 30px;
+}
+
+
+.identacao60{
+	text-indent: 60px;
+}
+
+.identacao80{
+	text-indent: 80px;
+}
+
+
+.pri{color:lightblue;}
+.seg{color:green;}
+.ter{color:orange;}
+.qua{color:red;}
+.qui{color:purple;}
+.qui{font-family:Monospace;}
+
+/*Exercício_3*/
+
+table {
+ margin: 0 auto 0 ;
+ font-family: Arial;	
+}
+
+table.alter tr td { /* Toda a tabela com fundo cinza*/
+	background: rgb(191, 191, 191);
+	text-align: center;
+	font-family: Arial;
+	padding: 0 100px;
+	} 
+
+table.alter tr.dif td {
+	background: #fff; /* Linhas com fundo branco */
+	text-align: center;	
+	font-family: Arial;		
+	}
+
+.notaVermelha{
+	color: rgb(255, 0, 0);
+	font-style: italic;
+	font-weight: bold;
+
+}
+	
+
+.notaVerde{
+	color: rgb(0, 176, 80);
+	font-style:italic;
+	font-weight: bold;
+
+	
+}
+
+/*Exercício4*/
+
+.container4{
+	width:100%;
+	width: 500px;
+	padding: 10px;
+	 
+}
+
+.imagem img{
+	width: 50%;
+	float: left;
+
+}
+
+.texto p{
+	float: right;
+}
